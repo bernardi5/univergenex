@@ -40,3 +40,5 @@ watch(%r{^app/controllers/(.+)_(controller)\.rb$})  do |m|
   watch(%r{^app/views/(.+)/}) { |m| "spec/requests/#{m[1]}_spec.rb" }
 
 
+
+
